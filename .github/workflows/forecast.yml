@@ -71,8 +71,8 @@ jobs:
 
       - name: Commit site data
         run: |
-          git config user.name 'alexwoods711'
-          git config user.email 'alex.woods.devs@gmail.com'
+          git config user.name 'lupes-pierre'
+          git config user.email 'pierrelupes@gmail.com'
           git add site/data
           if git diff --cached --quiet; then
             echo "No site data changes to commit."
